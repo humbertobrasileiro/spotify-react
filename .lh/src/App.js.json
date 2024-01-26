@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1706277553740,
@@ -24,6 +24,10 @@
                 {
                     "date": 1706278905199,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,14 @@\n import './App.css';\n import Footer from './Footer/Footer';\n-import Header from './Header/Header';\n import Main from './Main/Main';\n import Sidebar from './Sidebar/Sidebar';\n \n function App() {\n   return (\n     <div className=\"App\">\n       <Sidebar></Sidebar>\n-      <Main>\n-        <Header></Header>\n-      </Main>\n+      <Main></Main>\n       <Footer></Footer>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1706281092609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+import './Reset.css';\n import './App.css';\n import Footer from './Footer/Footer';\n import Main from './Main/Main';\n import Sidebar from './Sidebar/Sidebar';\n"
                 }
             ],
             "date": 1706277553740,
