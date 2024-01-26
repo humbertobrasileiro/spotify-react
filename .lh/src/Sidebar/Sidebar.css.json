@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/Sidebar/Sidebar.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1706277738016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1706277738016,
+            "name": "Commit-0",
+            "content": ".sidebar {\r\n  position: fixed;\r\n  left: 0;\r\n  top: 0;\r\n  width: 300px;\r\n  background-color: #000000;\r\n  padding: 12px;\r\n}\r\n\r\n.sidebar .logo {\r\n  background-color: #121212;\r\n  display: flex;\r\n  border-radius: 8px;\r\n  padding: 16px 0 0 16px;\r\n}\r\n\r\n.sidebar .logo img {\r\n  width: 80px;\r\n}\r\n\r\n.sidebar__navigation {\r\n  background-color: #121212;\r\n  border-radius: 8px;\r\n  cursor: pointer;\r\n}\r\n\r\n.sidebar nav ul {\r\n  list-style: none;\r\n  margin-top: 20px;\r\n  padding: 0px 20px 10px 20px;\r\n}\r\n\r\n.sidebar nav ul li {\r\n  padding: 10px 0px;\r\n}\r\n\r\n.sidebar nav ul li a {\r\n  color: #b3b3b3;\r\n  text-decoration: none;\r\n  font-weight: 600;\r\n  font-size: 14px;\r\n}\r\n\r\n.sidebar nav ul li .fa {\r\n  font-size: 20px;\r\n  margin-right: 10px;\r\n  font-weight: 300;\r\n}\r\n\r\n.sidebar nav ul li a:hover {\r\n  color: #ffffff;\r\n}"
+        }
+    ]
+}

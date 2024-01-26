@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/Main/Main.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1706278822325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1706278822325,
+            "name": "Commit-0",
+            "content": ".main-container {\r\n  max-width: 80vw;\r\n  height: 100vh;\r\n  margin-left: 320px;\r\n  margin-right: 56px;\r\n}"
+        }
+    ]
+}

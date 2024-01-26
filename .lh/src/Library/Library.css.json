@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/Library/Library.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1706278122281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1706278122281,
+            "name": "Commit-0",
+            "content": ".library {\r\n  background-color: #121212;\r\n  border-radius: 8px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  min-block-size: 40px;\r\n  padding: 4px 8px;\r\n  color: #b3b3b3;\r\n  font-weight: 600;\r\n  font-size: 14px;\r\n  margin-top: 10px;\r\n  flex-direction: column;\r\n}\r\n\r\n.library .library__button {\r\n  margin-right: 10px;\r\n  color: #b3b3b3;\r\n  background-color: transparent;\r\n  border: 0px;\r\n  font-size: 1rem;\r\n  font-weight: 700;\r\n  font-family: 'Montserrat', sans-serif;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  text-transform: none;\r\n  padding: 20px 10px;\r\n  display: flex;\r\n}\r\n\r\n.library .library__button .fa {\r\n  font-size: 20px;\r\n  margin-right: 10px;\r\n  font-weight: 300;\r\n  padding-right: 8px;\r\n}\r\n\r\n.library__content {\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.library .library__content .fa-plus {\r\n  margin: 24px 10px;\r\n}\r\n\r\n.section-playlist {\r\n  background-color: #242424;\r\n  align-items: flex-start;\r\n  border-radius: 8px;\r\n  gap: 20px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  min-block-size: 40px;\r\n  color: #b3b3b3;\r\n  font-weight: 600;\r\n  font-size: 14px;\r\n  margin: 8px 0;\r\n  padding: 16px 20px;\r\n}\r\n\r\n.section-playlist .section-playlist__content {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.section-playlist__content .text {\r\n  padding-bottom: 14px;\r\n  color: #fff;\r\n}\r\n\r\n.section-playlist__content .title {\r\n  font-weight: 700;\r\n}\r\n\r\n.section-playlist__content .subtitle {\r\n  font-weight: 500;\r\n  font-size: 0.8rem;\r\n}\r\n\r\n.section-playlist__content .section-playlist__button {\r\n  background-color: #ffffff;\r\n  color: #000;\r\n  border-radius: 9999px;\r\n  display: flex;\r\n  font-size: 0.8rem;\r\n  font-weight: 700;\r\n  font-family: 'Montserrat', sans-serif;\r\n  text-decoration: none;\r\n  text-transform: none;\r\n  padding: 10px;\r\n  border: 0px;\r\n  width: 113px;\r\n  justify-content: center;\r\n  margin-top: 12px;\r\n}\r\n\r\n.sidebar .cookies {\r\n  margin: 25px 20px;\r\n}\r\n\r\n.sidebar .cookies a {\r\n  color: #b3b3b3;\r\n  font-weight: 500;\r\n  text-decoration: none;\r\n  font-size: 10px;\r\n}\r\n\r\n.sidebar .cookies a:hover {\r\n  text-decoration: underline;\r\n}\r\n\r\n.languages .languages__button {\r\n  background-color: transparent;\r\n  border-radius: 9999px;\r\n  border: 1px solid #878787;\r\n  color: #fff;\r\n  cursor: pointer;\r\n  align-items: center;\r\n  padding: 8px;\r\n  width: 170px;\r\n  margin: 8px;\r\n  font-weight: bold;\r\n}\r\n"
+        }
+    ]
+}

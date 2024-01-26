@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/Library/Library.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1706277871683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706278015677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,39 @@\n import React from \"react\";\r\n import './Library.css';\r\n \r\n const Library = () => {\r\n+  return (\r\n+    <div className=\"library\">\r\n+      <div className=\"library__content\">\r\n+        <button className=\"library__button\">\r\n+          <span className=\"fa fas fa-book\"></span>\r\n+          <span>Sua biblioteca</span>\r\n+        </button>\r\n+        <span className=\"fa fa-plus\"></span>\r\n+      </div>\r\n \r\n+      <section className=\"section-playlist\">\r\n+        <div className=\"section-playlist__content\">\r\n+          <span className=\"text title\">Crie sua primeira playlist</span>\r\n+          <span className=\"text subtitle\">É fácil, vamos te ajudar.</span>\r\n+          <button className=\"section-playlist__button\">\r\n+            <span>Criar playlist</span>\r\n+          </button>\r\n+        </div>\r\n+      </section>\r\n+\r\n+      <div className=\"cookies\">\r\n+        <a href=\"#\">Cookies</a>\r\n+      </div>\r\n+\r\n+      <div className=\"languages\">\r\n+        <button className=\"languages__button\">\r\n+          <span className=\"fa fa-globe\"></span>\r\n+          <span>Português do Brasil</span>\r\n+        </button>\r\n+      </div>\r\n+    </div>\r\n+  );\r\n };\r\n \r\n export default Library;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1706277871683,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport './Library.css';\r\n\r\nconst Library = () => {\r\n\r\n};\r\n\r\nexport default Library;"
+        }
+    ]
+}

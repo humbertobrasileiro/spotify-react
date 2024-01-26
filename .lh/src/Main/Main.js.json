@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/Main/Main.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1706278753202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706278803721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,13 @@\n import React from \"react\";\r\n import './Main.css';\r\n \r\n const Main = () => {\r\n-  return ();\r\n+  return (\r\n+    <main>\r\n+      <div className=\"main-container\">\r\n+      </div>\r\n+    </main>\r\n+  );\r\n }\r\n \r\n export default Main;\r\n"
+                },
+                {
+                    "date": 1706279001770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,13 @@\n import React from \"react\";\r\n import './Main.css';\r\n+import Header from '../Header/Header';\r\n \r\n const Main = () => {\r\n   return (\r\n     <main>\r\n       <div className=\"main-container\">\r\n+        <Header></Header>\r\n       </div>\r\n     </main>\r\n   );\r\n }\r\n"
+                },
+                {
+                    "date": 1706280158595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,15 @@\n import React from \"react\";\r\n import './Main.css';\r\n import Header from '../Header/Header';\r\n+import Playlist from '../Playlist/Playlist';\r\n \r\n const Main = () => {\r\n   return (\r\n     <main>\r\n       <div className=\"main-container\">\r\n         <Header></Header>\r\n+        <Playlist></Playlist>\r\n       </div>\r\n     </main>\r\n   );\r\n }\r\n"
+                }
+            ],
+            "date": 1706278753202,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport './Main.css';\r\n\r\nconst Main = () => {\r\n  return ();\r\n}\r\n\r\nexport default Main;\r\n"
+        }
+    ]
+}

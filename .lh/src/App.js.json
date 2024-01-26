@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1706277553740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706277648460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,12 @@\n import Sidebar from './Sidebar/Sidebar';\n \n function App() {\n   return (\n-    <Sidebar></Sidebar>\n-    <Header></Header>\n+    <div className=\"App\">\n+      <Sidebar></Sidebar>\n+      <Header></Header>\n+    </div>\n   );\n }\n \n export default App;\n"
+                },
+                {
+                    "date": 1706278509660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,15 @@\n import './App.css';\n+import Footer from './Footer/Footer';\n import Header from './Header/Header';\n import Sidebar from './Sidebar/Sidebar';\n \n function App() {\n   return (\n     <div className=\"App\">\n       <Sidebar></Sidebar>\n       <Header></Header>\n+      <Footer></Footer>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1706278862887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,17 @@\n import './App.css';\n import Footer from './Footer/Footer';\n import Header from './Header/Header';\n+import Main from './Main/Main';\n import Sidebar from './Sidebar/Sidebar';\n \n function App() {\n   return (\n     <div className=\"App\">\n       <Sidebar></Sidebar>\n-      <Header></Header>\n+      <Main>\n+        <Header></Header>\n+      </Main>\n       <Footer></Footer>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1706278905199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,14 @@\n import './App.css';\n import Footer from './Footer/Footer';\n-import Header from './Header/Header';\n import Main from './Main/Main';\n import Sidebar from './Sidebar/Sidebar';\n \n function App() {\n   return (\n     <div className=\"App\">\n       <Sidebar></Sidebar>\n-      <Main>\n-        <Header></Header>\n-      </Main>\n+      <Main></Main>\n       <Footer></Footer>\n     </div>\n   );\n }\n"
+                }
+            ],
+            "date": 1706277553740,
+            "name": "Commit-0",
+            "content": "import './App.css';\nimport Header from './Header/Header';\nimport Sidebar from './Sidebar/Sidebar';\n\nfunction App() {\n  return (\n    <Sidebar></Sidebar>\n    <Header></Header>\n  );\n}\n\nexport default App;\n"
+        }
+    ]
+}

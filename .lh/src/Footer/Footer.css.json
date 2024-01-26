@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/Footer/Footer.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1706278591539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1706278591539,
+            "name": "Commit-0",
+            "content": ".disclaimer-premium {\r\n  position: fixed;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  background: linear-gradient(to right, #ae2896, #509bf5);\r\n  padding: 15px 40px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.disclaimer-premium .text {\r\n  flex-shrink: 0;\r\n}\r\n\r\n.disclaimer-premium .disclaimer-premium__title {\r\n  color: #ffffff;\r\n  text-transform: uppercase;\r\n  font-weight: 400;\r\n  font-size: 12px;\r\n  margin-bottom: 10px;\r\n}\r\n\r\n.disclaimer-premium .disclaimer-premium__subtitle {\r\n  color: #ffffff;\r\n  font-size: 14px;\r\n  font-weight: 500;\r\n}\r\n\r\n.disclaimer-premium button {\r\n  background-color: #ffffff;\r\n  color: #000000;\r\n  font-size: 16px;\r\n  font-weight: bold;\r\n  padding: 14px 30px;\r\n  border: 0px;\r\n  border-radius: 40px;\r\n  cursor: pointer;\r\n  flex-shrink: 0;\r\n}"
+        }
+    ]
+}

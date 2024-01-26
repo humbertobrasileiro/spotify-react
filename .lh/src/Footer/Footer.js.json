@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/Footer/Footer.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1706278447318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706278459540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n import React from \"react\";\r\n import './Footer.css';\r\n \r\n const Footer = () => {\r\n+  return (\r\n \r\n+  );\r\n };\r\n \r\n export default Footer;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1706278482937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,20 @@\n import './Footer.css';\r\n \r\n const Footer = () => {\r\n   return (\r\n-\r\n+    <footer className=\"disclaimer-premium\">\r\n+      <div className=\"text\">\r\n+        <p className=\"disclaimer-premium__title\">Testar o Premium de graça</p>\r\n+        <p className=\"disclaimer-premium__subtitle\">\r\n+          Inscreva-se para curtir música ilimitada e podcasts só com alguns\r\n+          anúncios. Não precisa de cartão de crédito.\r\n+        </p>\r\n+      </div>\r\n+      <div className=\"button\">\r\n+        <button type=\"button\">Inscreva-se grátis</button>\r\n+      </div>\r\n+    </footer>\r\n   );\r\n };\r\n \r\n export default Footer;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1706278447318,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport './Footer.css';\r\n\r\nconst Footer = () => {\r\n\r\n};\r\n\r\nexport default Footer;"
+        }
+    ]
+}
